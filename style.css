@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #e6eff6;
+}
+header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+.cont {
+  width: 55%;
+  height: 500px;
+  background-color: hsl(60, 100%, 96%);
+  margin: auto;
+  margin-top: 100px;
+}
+header .txt {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+header .txt h1,
+header .txt h2,
+header .txt p {
+  font-family: Karla;
+}
+header .txt h1 {
+  color: hsl(218, 22%, 67%);
+}
+header .txt h2 {
+  color: hsl(71, 73%, 54%);
+  margin-top: 15px;
+}
+header .txt p {
+  color: hsl(200, 7%, 57.8%);
+  margin-top: 15px;
+}
+/*main style*/
+main {
+  display: flex;
+}
+main article {
+  width: 50%;
+  height: 300px;
+}
+main .prix {
+  background-color: #2bb3b1;
+}
+main .prix div {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+main .prix div h3 {
+  color: white;
+  font-family: Karla;
+}
+main .prix div h4 {
+  color: white;
+  font-family: Karla;
+  margin-top: 25px;
+}
+main .prix div h4 span {
+  font-size: 50px;
+}
+main .prix div p {
+  color: white;
+  font-family: Karla;
+  margin-top: 25px;
+}
+main .text {
+  background-color: #49bebc;
+}
+main .prix div input {
+  width: 85%;
+  margin: auto;
+  height: 47px;
+  border-radius: 9px;
+  margin-top: 32px;
+  background-color: #bfdf32;
+  color: white;
+  font-size: 24px;
+}
+main .text div {
+  margin-top: 40px;
+  margin-left: 50px;
+  font-family: Karla;
+  color: white;
+}
+
+main .text div p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*media screen*/
+@media only screen and (max-width: 800px) {
+    header {
+        height: 240px;
+      }
+      .cont {
+        width: 90%;
+        height: auto;
+      }
+      header .txt {
+        margin-top: 30px;
+margin-left: 30px;
+      }
+ 
+      header .txt h1 {
+        font-size: 30px;
+      }
+      header .txt h2 {
+        font-size: 18px;
+      }
+   
+      /*main style*/
+      main {
+       display: inline;
+      }
+ 
+      main .prix {
+        width: 100%;
+        overflow: hidden;
+      }
+
+      main .text {
+          width: 100%;
+          overflow: hidden;
+        
+      }
+
+}
